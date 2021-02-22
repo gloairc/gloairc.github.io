@@ -1,1 +1,240 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <title>Gloria's Portfolio</title>
+</head>
+
+<body>
+    <div id="overall-cont" class="container-fluid d-flex flex-row">
+
+        <div id="left-cont" class="col-sm-3">
+            <div id="profile" class="d-flex flex-row">
+                <img src="./images/profilepic_square.jpg" id="profile-pic" />
+                <p id="name">Gloria Cheng</p>
+            </div>
+
+            <div id="about-me">
+                <h2>About Me</h2>
+                <p>Programme Manager turn Full Stack software developer</p>
+                <p>I aspire to create user-centric apps that meet their needs, look and feel good</p>
+            </div>
+
+            <div id="techstack-cont">
+                <h3>TechStack</h3>
+                <div id="techstack">
+                    MongoDB, Express, ReactJS,Node.js
+                    </br>
+                    HTML CSS
+                    API, Axios
+                </div>
+            </div>
+
+            <div id="social-media">
+                <h3>Contact</h3>
+                <a href="https://www.linkedin.com/in/gloriachengly/" target="_blank" class="link">
+                    <button class="social-media" id="linked-in">
+                        <img class="social-media-icon" src="images/linkedIn.png" alt="LinkedIn">
+                    </button>
+                </a>
+
+                <a href="https://github.com/gloairc" target="_blank" class="link">
+                    <button class="social-media" id="github">
+                        <img class="social-media-icon" src="images/github.png" alt="GitHub">
+                    </button>
+                </a>
+
+                <a href="mailto:gloriachengly@gmail.com" class="link">
+                    <button class="social-media" id="email">
+                        <img class="social-media-icon" src="images/email.png" alt="Email">
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div id="right-cont" class="col-sm-9">
+            <div id="projects" class="container-fluid">
+                <h1 id="wip">THIS IS A DRAFT, STILL WORK IN PROGRESS</h1>
+                <h2>Projects</h2>
+                <!-- PROJECT ROW 1 -->
+                <div class="row" id="proj-row-1">
+                    <div class="col-sm-6" id="ultimate-bender-col">
+                        <div id="ultimate-bender-card">
+                            <div class="card">
+                                <img class="card-img-top" src="..." alt="Card image cap">
+
+                                <div class="card-body">
+                                    <h5 class="card-title">Ultimate Bender</h5>
+                                    <p class="card-text">A series of Ultimate Scissor Paper Stone games made with
+                                        Javascript
+                                        (jQuery).
+                                        <br />
+                                        Tech-Stack: HTML, CSS, JavaScript (Jquery)
+                                    </p>
+                                    <div class="project-link">
+
+                                        <button class="proj-link" data-toggle="modal"
+                                            data-target="#ultimateBenderModal">More
+                                            <img class="proj-link" src="" alt="">
+                                        </button>
+
+                                        <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/"
+                                            target="_blank" class="link">
+                                            <button class="proj-link">Play
+                                                <img class="proj-link" src="./images/openinnew.png" alt="launch app">
+                                            </button>
+                                        </a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="ultimateBenderModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">Ultimate Bender
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <p class="">My first project after learning Javascript! A web-based
+                                                        game
+                                                        where
+                                                        player
+                                                        plays a
+                                                        series of Ultimate Scissor Paper Stone
+                                                        matches with a spin on the 5 Element Theory.</p>
+                                                    <p class="project-techstack">
+                                                        Tech-Stack: HTML, CSS, JavaScript (Jquery)
+                                                    </p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="project-link">
+                                                        <a href="https://github.com/gloairc/sei-26-ultimateBender"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">See code
+                                                                <img class="proj-link" src="./images/github.png"
+                                                                    alt="go to repo">
+                                                            </button>
+                                                        </a>
+                                                        <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">Play
+                                                                <img class="proj-link" src="./images/openinnew.png"
+                                                                    alt="launch app">
+                                                            </button>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="singK-col">
+                        <div id="singK-card">
+                            <h3>singK</h3>
+                            <!-- carousel of screenshot -->
+                            <p class="project-description">My first front-end React app which allows users to sing to a
+                                Youtube
+                                video of
+                                their
+                                choice with lyrics in the same viewport. Especially useful when singing to fast-paced
+                                songs,
+                                raps or
+                                Chinese
+                                songs. </p>
+                            <p class="project-techstack">
+                                Tech-Stack: HTML, CSS, Javascript, React. API: Axios, Youtube, RapidAPI (Shazam)
+                            </p>
+
+                            <div class="project-link">
+                                Link to repo: https://github.com/gloairc/sei-26-singK
+                                Link to app: https://sei-26-sing-k.vercel.app/
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT ROW 2 -->
+                <div class="row" id="proj-row-2">
+                    <div class="col-sm-6" id="lovely-leftover-col">
+                        <div id="lovely-leftover-card">
+                            <h3>Lovely Leftovers</h3>
+                            <!-- carousel of screenshot -->
+                            <p class="project-description">My first Full-Stack MERN app (group effort)- a platform for
+                                anyone
+                                with
+                                excess
+                                food products to
+                                contribute food and for charity organizations to acquire food for their clients and/or
+                                beneficiaries. I
+                                mainly set up the backend for Users (login, singup, edit account, validations) and a
+                                little
+                                front-end
+                                for
+                                the listings.
+                            </p>
+                            <p class="project-techstack">
+                                Tech-Stack: MongoDB, Express, React, Node.js, API, Axios, Bootstrap, react-bootstrap
+                            </p>
+
+                            <div class="project-link">
+                                Link to repo: https://github.com/gloairc/sei-26-Lovely-Leftovers
+                                Link to app: https://lovelyleftovers-project3.herokuapp.com/about
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6" id="beatIT-col">
+
+                        <div id="beatIT-card">
+                            <h3>BeatIT!</h3>
+                            <!-- carousel of screenshot -->
+                            <p class="project-description">Full-Stack MERN app - Play, Save, Edit, Replay beat sequences
+                                on
+                                a
+                                virtual
+                                step-sequencer. Drop the beat anytime, anywhere.
+                            </p>
+                            <p class="project-techstack">
+                                Tech-Stack: MongoDB, Express, React, Node.js, Axios, Bootstrap, react-bootstrap
+                            </p>
+
+                            <div class="project-link">
+                                Link to repo: https://github.com/gloairc/sei-26-beatIT
+                                Link to app: coming
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

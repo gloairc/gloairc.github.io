@@ -1,0 +1,97 @@
+#wip {
+    color: red
+}
+#profile-pic {
+    width:50%;
+    height:50%;
+    object-fit:cover;
+    border-radius:50%;
+    border: 3px solid white
+}
+
+#name{
+    font-size: 3vw ;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    margin: 0
+}
+
+#left-cont{
+    background-color:lightgreen;
+}
+
+#right-cont{
+    background-color:lightskyblue;
+}
+
+#overall-cont {
+border: 3px solid salmon
+}
+
+
+img.social-media-icon {
+    width: 40px;
+    height: 40px;
+    margin: auto;
+}
+
+a.link {
+    margin: 5px;
+    text-decoration: none;
+  }
+
+  a.link:hover {
+    text-decoration: none;
+  }
+  
+button.social-media {
+    width: 45px;
+    height: 45px;
+  
+    border-radius: 50%;
+    outline: none;
+    border: none;
+  
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  /* button#linked-in {
+    background: #0077B5;
+  }
+  
+button#linked-in:hover {
+    background: #028eda;
+    box-shadow: 0 0 10px #0077B5, 
+                0 0 20px #0077B5, 
+                0 0 40px #0077B5, 
+                /* 0 0 60px #0077B5;
+  } */
+  
+ /* button#github {
+    background: #7c7c7c;
+  }
+  
+ button#github:hover {
+    background: #b4b0b0;
+    box-shadow: 0 0 10px #7c7c7c, 
+                0 0 20px #7c7c7c, 
+                0 0 40px #7c7c7c, 
+                0 0 60px #7c7c7c;
+  }  */
+  
+ 
+  img.proj-link {
+    width: 45px;
+    height: 45px;
+  }
+
+  button.proj-link {
+    /* outline: none;
+    border: none; */
+  
+    cursor: pointer;
+    /* transition: 0.4s; */
+  }
+  
