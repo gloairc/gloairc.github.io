@@ -8,10 +8,14 @@ body{
   background-color: gold;
 } */
 
+body{
+  /* font-family: 'Fjalla One', sans-serif; */
+  font-family: 'Fira Sans', sans-serif;
+}
 #overall-cont {
   height: 100vh;
   /* width: 100%; */
-  background-color: silver;
+  /* background-color: silver; */
 }
 
 #profile-pic {
@@ -27,22 +31,29 @@ body{
     font-weight: bold;
     align-items: center;
     justify-content: center;
-    margin: 0
+    margin: 0;
+    padding-left: 5px;
 }
 
 #left-cont{
-    background-color:lightgreen;
+    /* background-color: lightgreen; */
+    background-image: url("./images/cool-background.png");
+    background-size: cover;
+    
+
 }
 
+/* https://cssgradient.io/ */
 #right-cont{
-    background-color:lightskyblue;
+  background: rgb(46,60,122);
+  background: linear-gradient(350deg, rgba(46,60,122,1) 0%, rgba(72,102,129,1) 25%, rgba(129,217,188,1) 68%);
     height: 100%;
     overflow-y:auto;
 }
 
-#overall-cont {
+/* #overall-cont {
 border: 3px solid salmon
-}
+} */
 
 
 img.social-media-icon {

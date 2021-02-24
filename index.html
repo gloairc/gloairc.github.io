@@ -9,16 +9,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./index.css">
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+
     <title>Gloria's Portfolio</title>
 </head>
 
 <body>
-    <div id="overall-cont" class="container-fluid d-flex flex-row">
+    <div id="overall-cont" class="container-fluid d-flex flex-row p-0">
         <!-- LEFT: PROFILE -->
         <div id="left-cont" class="col-sm-3">
-            <div id="profile" class="d-flex flex-row">
+            <div id="profile" class="d-flex flex-row py-2">
                 <img src="./images/profilepic_square.jpg" id="profile-pic" />
-                <p id="name">Gloria Cheng</p>
+                <div id="name" class="d-flex">Gloria Cheng</div>
             </div>
 
             <div id="about-me">
@@ -31,7 +36,7 @@
             </div>
 
             <div id="techstack-cont">
-                <h3>Tech-Stack</h3>
+                <h3>Tech Stack</h3>
                 <div id="techstack">
                     <p> MERN: MongoDB, Express, ReactJS, Node.js
                         </br>
@@ -62,13 +67,13 @@
         </div>
 
         <div id="right-cont" class="col-sm-9">
-            <div id="projects" class="container-fluid">
+            <div id="projects" class="container-fluid py-2">
                 <h2>Projects</h2>
                 <!-- PROJECT ROW 1 -->
                 <div class="row" id="proj-row-1">
                     <div class="card-deck">
                         <!-- ULTIMATE BENDER -->
-                        <div class="card" id="ultimate-bender-card">
+                        <div class="card mb-2" id="ultimate-bender-card">
                             <!-- <img class="card-img-top" src="./images/proj-screenshot/ub-home.PNG"
                                 alt="Ultimate Bender screenshot"> -->
 
@@ -161,7 +166,7 @@
                                                     matches with a spin on the 5 Element Theory.
                                                 </p>
                                                 <p class="modal-techstack">
-                                                    Tech-Stack: HTML, CSS, JavaScript (Jquery)
+                                                    Tech Stack: HTML, CSS, JavaScript (Jquery)
                                                 </p>
 
                                             </div>
@@ -190,7 +195,7 @@
                         </div>
 
                         <!-- SINGK -->
-                        <div class="card" id="singK-card">
+                        <div class="card mb-2" id="singK-card">
                             <!-- <img class="card-img-top" src="./images/proj-screenshot/singK-home.PNG"
                                 alt="singK screenshot"> -->
                             <!-- singK CAROUSEL -->
@@ -289,7 +294,7 @@
                                                     songs.
                                                 </p>
                                                 <p class="modal-techstack">
-                                                    Tech-Stack: React, Axios, API: Youtube,
+                                                    Tech Stack: React, Axios, API: Youtube,
                                                     RapidAPI (Shazam) | HTML, CSS, Javascript
                                                 </p>
 
@@ -324,7 +329,7 @@
                 <div class="row" id="proj-row-2">
                     <div class="card-deck">
                         <!-- LOVELY LEFTOVERS -->
-                        <div class="card" id="lovely-leftover-card">
+                        <div class="card mb-2" id="lovely-leftover-card">
                             <!-- <img class="card-img-top" src="./images/proj-screenshot/ll-home.PNG"
                                 alt="Lovely Leftovers screenshot"> -->
 
@@ -459,7 +464,7 @@
                             </div>
                         </div>
 
-                        <div class="card" id="beatIT-card">
+                        <div class="card mb-2" id="beatIT-card">
                             <!-- <img class="card-img-top" src="./images/proj-screenshot/bi-home.PNG"
                                 alt="BeatIT! screenshot"> -->
 
@@ -563,7 +568,7 @@
                                                     functionalities, authorization and authentication.
                                                 </p>
                                                 <p class="modal-techstack">
-                                                    Tech-Stack: (MERN) MongoDB, Express, React, Node.js | Axios, JWT,
+                                                    Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, JWT,
                                                     Bootstrap
                                                 </p>
 
