@@ -1,6 +1,19 @@
-#wip {
-    color: red
+/* html{
+  height: 100vh;
+  background-color: black;
 }
+
+body{
+  height: 100vh;
+  background-color: gold;
+} */
+
+#overall-cont {
+  height: 100vh;
+  /* width: 100%; */
+  background-color: silver;
+}
+
 #profile-pic {
     width:50%;
     height:50%;
@@ -23,6 +36,8 @@
 
 #right-cont{
     background-color:lightskyblue;
+    height: 100%;
+    overflow-y:auto;
 }
 
 #overall-cont {
@@ -46,9 +61,9 @@ a.link {
   }
   
 button.social-media {
-    width: 45px;
-    height: 45px;
-  
+    width: 40px;
+    height: 40px;
+    padding: 0;
     border-radius: 50%;
     outline: none;
     border: none;
@@ -66,7 +81,7 @@ button#linked-in:hover {
     box-shadow: 0 0 10px #0077B5, 
                 0 0 20px #0077B5, 
                 0 0 40px #0077B5, 
-                /* 0 0 60px #0077B5;
+                0 0 60px #0077B5;
   } */
   
  /* button#github {
@@ -83,15 +98,27 @@ button#linked-in:hover {
   
  
   img.proj-link {
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
   }
 
   button.proj-link {
     /* outline: none;
     border: none; */
-  
-    cursor: pointer;
+    height: 35px;
+    /* cursor: pointer; */
     /* transition: 0.4s; */
   }
   
+  #carousel-words{
+    color: black;
+  }
+
+  .modal-p, .modal-techstack {
+    padding-top: 1rem;
+    margin-bottom: 0;
+  }
+
+  #eyes-more{
+    font-size: 20px;
+  }
