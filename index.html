@@ -18,307 +18,315 @@
 </head>
 
 <body>
-    <div id="overall-cont" class="container-fluid d-flex flex-row p-0">
+    <div id="overall-cont" class="container-fluid">
         <!-- LEFT: PROFILE -->
-        <div id="left-cont" class="col-sm-3">
-            <div id="profile" class="d-flex flex-row py-2">
-                <img src="./images/profilepic_square.jpg" id="profile-pic" />
-                <div id="name" class="d-flex">Gloria Cheng</div>
-            </div>
+        <div class=row>
+            <div id="left-cont" class="col-xs-12 col-sm-4 pt-2 pb-4">
+                <div id="profile" class="d-flex flex-row py-2">
+                    <img src="./images/profilepic_square.jpg" id="profile-pic" />
+                    <div id="name" class="d-flex pl-2">
+                        <h3 class="p-0">Gloria Cheng</h3>
+                    </div>
+                </div>
 
-            <div id="about-me">
-                <h2>About Me</h2>
-                <p>Public Service Programme Manager turned Front-End/ Full-Stack Developer.<br />
-                    </br>
-                    I enjoy working with others to solve problems and am excited to use my newly-acquired skills to
-                    create all kinds of meaningful apps that not only meet people’s needs, but look and feel good.
-                </p>
-            </div>
-
-            <div id="techstack-cont">
-                <h3>Tech Stack</h3>
-                <div id="techstack">
-                    <p> Front-End: ReactJS
-                        <br />
-                        Full-Stack: (MERN) MongoDB, Express, ReactJS, Node.js
+                <div id="about-me">
+                    <h2>About Me</h2>
+                    <p>Public Service Programme Manager turned Front-End/ Full-Stack Developer.<br />
                         </br>
-                        Others: HTML, CSS, API, Axios, JWT
+                        I enjoy working with others to solve problems and am excited to use my newly-acquired skills to
+                        create all kinds of meaningful apps that not only meet people’s needs, but look and feel good.
                     </p>
+                </div>
+
+                <div id="techstack-cont">
+                    <h3>Tech Stack</h3>
+                    <div id="techstack">
+                        <p> Front-End: ReactJS
+                            <br />
+                            Full-Stack: (MERN) MongoDB, Express, ReactJS, Node.js
+                            </br>
+                            Others: API, Axios, JWT
+                        </p>
+                    </div>
+                </div>
+
+                <div id="social-media-cont">
+                    <h3>Contact</h3>
+                    <a href="https://www.linkedin.com/in/gloriachengly/" target="_blank" class="link">
+                        <button class="social-media" id="linked-in">
+                            <img class="social-media-icon" src="images/linkedIn.png" alt="LinkedIn">
+                        </button>
+                    </a>
+
+                    <a href="https://github.com/gloairc" target="_blank" class="link">
+                        <button class="social-media" id="github">
+                            <img class="social-media-icon" src="images/github.png" alt="GitHub">
+                        </button>
+                    </a>
+
+                    <a href="mailto:gloriachengly@gmail.com" class="link">
+                        <button class="social-media" id="email">
+                            <img class="social-media-icon" src="images/email.png" alt="Email">
+                        </button>
+                    </a>
                 </div>
             </div>
 
-            <div id="social-media-cont">
-                <h3>Contact</h3>
-                <a href="https://www.linkedin.com/in/gloriachengly/" target="_blank" class="link">
-                    <button class="social-media" id="linked-in">
-                        <img class="social-media-icon" src="images/linkedIn.png" alt="LinkedIn">
-                    </button>
-                </a>
-
-                <a href="https://github.com/gloairc" target="_blank" class="link">
-                    <button class="social-media" id="github">
-                        <img class="social-media-icon" src="images/github.png" alt="GitHub">
-                    </button>
-                </a>
-
-                <a href="mailto:gloriachengly@gmail.com" class="link">
-                    <button class="social-media" id="email">
-                        <img class="social-media-icon" src="images/email.png" alt="Email">
-                    </button>
-                </a>
-            </div>
-        </div>
-
-        <div id="right-cont" class="col-sm-9">
-            <div id="projects" class="container-fluid py-2">
-                <h2>Projects</h2>
-                <!-- PROJECT ROW 1 -->
-                <div class="row" id="proj-row-1">
-                    <div class="card-deck">
-                        <!-- ULTIMATE BENDER -->
-                        <div class="card mb-2" id="ultimate-bender-card">
-                            <!-- <img class="card-img-top" src="./images/proj-screenshot/ub-home.PNG"
+            <div id="right-cont" class="col-xs-12 col-sm-8 pt-4 pb-2">
+                <div id="projects" class="container-fluid">
+                    <h2>Projects</h2>
+                    <!-- PROJECT ROW 1 -->
+                    <div class="row" id="proj-row-1">
+                        <div class="card-deck">
+                            <!-- ULTIMATE BENDER -->
+                            <div class="card mb-2" id="ultimate-bender-card">
+                                <!-- <img class="card-img-top" src="./images/proj-screenshot/ub-home.PNG"
                                 alt="Ultimate Bender screenshot"> -->
 
-                            <!-- Ultimate Bender CAROUSEL -->
-                            <div id="ub-carouselIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#ub-carouselIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#ub-carouselIndicators" data-slide-to="1"></li>
-                                    <li data-target="#ub-carouselIndicators" data-slide-to="2"></li>
-                                    <li data-target="#ub-carouselIndicators" data-slide-to="3"></li>
-                                </ol>
-                                <!-- Ultimate Bender CAROUSEL PICTURES -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ub-home.PNG"
-                                            alt="Home">
+                                <!-- Ultimate Bender CAROUSEL -->
+                                <div id="ub-carouselIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#ub-carouselIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#ub-carouselIndicators" data-slide-to="1"></li>
+                                        <li data-target="#ub-carouselIndicators" data-slide-to="2"></li>
+                                        <li data-target="#ub-carouselIndicators" data-slide-to="3"></li>
+                                    </ol>
+                                    <!-- Ultimate Bender CAROUSEL PICTURES -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ub-home.PNG"
+                                                alt="Home">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ub-cycle.PNG"
+                                                alt="Element Cycle">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ub-prematch.PNG"
+                                                alt="Pre-Match">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ub-match3.PNG"
+                                                alt="Fight">
+                                        </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ub-cycle.PNG"
-                                            alt="Element Cycle">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ub-prematch.PNG"
-                                            alt="Pre-Match">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ub-match3.PNG"
-                                            alt="Fight">
-                                    </div>
-                                </div>
-                                <!-- Ultimate Bender Carousel Controller -->
-                                <a class="carousel-control-prev" href="#ub-carouselIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#ub-carouselIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- Ultimate Bender Body -->
-                            <div class="card-body">
-                                <h5 class="card-title">Ultimate Bender</h5>
-                                <p class="card-text">A Javascript (jQuery) game of Ultimate Scissor Paper Stone.
-                                    <br />
-                                    <br />
-                                    Tech Stack: HTML, CSS, JavaScript (Jquery)
-                                </p>
-                                <div class="project-link d-flex align-items-center justify-content-start">
-
-                                    <button class="proj-link" data-toggle="modal"
-                                        data-target="#ultimateBenderModal">More <span id="eyes-more">&#x1F440</span>
-                                    </button>
-
-                                    <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/" target="_blank"
-                                        class="link">
-                                        <button class="proj-link">View
-                                            <img class="proj-link" src="./images/openinnew.png" alt="launch app">
-                                        </button>
+                                    <!-- Ultimate Bender Carousel Controller -->
+                                    <a class="carousel-control-prev" href="#ub-carouselIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#ub-carouselIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
                                     </a>
                                 </div>
+                                <!-- Ultimate Bender Body -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Ultimate Bender</h5>
+                                    <p class="card-text">A Javascript (jQuery) game of Ultimate Scissor Paper Stone.
+                                        <br />
+                                        <br />
+                                        Tech Stack: HTML, CSS, JavaScript (Jquery)
+                                    </p>
+                                    <div class="project-link d-flex align-items-center justify-content-start">
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="ultimateBenderModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Ultimate Bender
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img class="d-block w-100" src="./images/proj-screenshot/ub-match3.PNG"
-                                                    alt="Ultimate Bender Match">
-                                                <p class="modal-p">My first project after learning Javascript! (solo
-                                                    project)
-                                                    <br />
-                                                    A web-based Javascript (jQuery)
-                                                    game
-                                                    where
-                                                    player
-                                                    plays a
-                                                    series of Ultimate Scissor Paper Stone
-                                                    matches with a spin on the 5 Element Theory.
-                                                </p>
-                                                <p class="modal-techstack">
-                                                    Tech Stack: HTML, CSS, JavaScript (Jquery)
-                                                </p>
+                                        <button class="proj-link" data-toggle="modal"
+                                            data-target="#ultimateBenderModal">More <span id="eyes-more">&#x1F440</span>
+                                        </button>
 
-                                            </div>
-                                            <div class="modal-footer">
-                                                <div class="project-link">
-                                                    <a href="https://github.com/gloairc/sei-26-ultimateBender"
-                                                        target="_blank" class="link">
-                                                        <button class="proj-link">See code
-                                                            <img class="proj-link" src="./images/github.png"
-                                                                alt="go to repo">
-                                                        </button>
-                                                    </a>
-                                                    <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/"
-                                                        target="_blank" class="link">
-                                                        <button class="proj-link">View
-                                                            <img class="proj-link" src="./images/openinnew.png"
-                                                                alt="launch app">
-                                                        </button>
-                                                    </a>
+                                        <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/"
+                                            target="_blank" class="link">
+                                            <button class="proj-link">View
+                                                <img class="proj-link" src="./images/openinnew.png" alt="launch app">
+                                            </button>
+                                        </a>
+                                    </div>
+
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="ultimateBenderModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">Ultimate Bender
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img class="d-block w-100"
+                                                        src="./images/proj-screenshot/ub-match3.PNG"
+                                                        alt="Ultimate Bender Match">
+                                                    <p class="modal-p">My first project after learning Javascript! (solo
+                                                        project)
+                                                        <br />
+                                                        A web-based Javascript (jQuery)
+                                                        game
+                                                        where
+                                                        player
+                                                        plays a
+                                                        series of Ultimate Scissor Paper Stone
+                                                        matches with a spin on the 5 Element Theory.
+                                                    </p>
+                                                    <p class="modal-techstack">
+                                                        Tech Stack: HTML, CSS, JavaScript (Jquery)
+                                                    </p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="project-link">
+                                                        <a href="https://github.com/gloairc/sei-26-ultimateBender"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">See code
+                                                                <img class="proj-link" src="./images/github.png"
+                                                                    alt="go to repo">
+                                                            </button>
+                                                        </a>
+                                                        <a href="https://pages.git.generalassemb.ly/gloairc/ultimateBender/"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">View
+                                                                <img class="proj-link" src="./images/openinnew.png"
+                                                                    alt="launch app">
+                                                            </button>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <!-- SINGK -->
-                        <div class="card mb-2" id="singK-card">
-                            <!-- <img class="card-img-top" src="./images/proj-screenshot/singK-home.PNG"
+                            <!-- SINGK -->
+                            <div class="card mb-2" id="singK-card">
+                                <!-- <img class="card-img-top" src="./images/proj-screenshot/singK-home.PNG"
                                 alt="singK screenshot"> -->
-                            <!-- singK CAROUSEL -->
-                            <div id="singK-carouselIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#singK-carouselIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#singK-carouselIndicators" data-slide-to="1"></li>
-                                    <li data-target="#singK-carouselIndicators" data-slide-to="2"></li>
-                                    <li data-target="#singK-carouselIndicators" data-slide-to="3"></li>
-                                </ol>
-                                <!-- singK CAROUSEL PICTURES -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/singK-home.PNG"
-                                            alt="Home">
-                                        <!-- <div class="carousel-caption d-none d-md-block" id="carousel-words">
+                                <!-- singK CAROUSEL -->
+                                <div id="singK-carouselIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#singK-carouselIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#singK-carouselIndicators" data-slide-to="1"></li>
+                                        <li data-target="#singK-carouselIndicators" data-slide-to="2"></li>
+                                        <li data-target="#singK-carouselIndicators" data-slide-to="3"></li>
+                                    </ol>
+                                    <!-- singK CAROUSEL PICTURES -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/singK-home.PNG"
+                                                alt="Home">
+                                            <!-- <div class="carousel-caption d-none d-md-block" id="carousel-words">
                                             <h5>Home</h5>
                                             <p>Type a song you want to sing to</p>
                                         </div> -->
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/singK-search.PNG"
+                                                alt="Search">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/singK-watch.PNG"
+                                                alt="Sing">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="./images/proj-screenshot/singK-watch-search.PNG"
+                                                alt="Sing and Search">
+                                        </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/singK-search.PNG"
-                                            alt="Search">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/singK-watch.PNG"
-                                            alt="Sing">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/singK-watch-search.PNG"
-                                            alt="Sing and Search">
-                                    </div>
-                                </div>
-                                <!-- singK Carousel Controller -->
-                                <a class="carousel-control-prev" href="#singK-carouselIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#singK-carouselIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-
-                            <!-- singK CARD BODY -->
-                            <div class="card-body" id="singK-cardbody">
-                                <h5 class="card-title">singK</h5>
-                                <p class="card-text">A single page application (SPA) made with React and API. Sing to a
-                                    Youtube video of your choice with full lyrics in the same viewport.
-                                    <br />
-                                    <br /> Tech Stack: React, Axios, API | HTML, CSS, Javascript
-                                </p>
-                                <div class="project-link d-flex align-items-center justify-content-start">
-                                    <button class="proj-link" data-toggle="modal" data-target="#singKModal">More
-                                        <span id="eyes-more">&#x1F440</span>
-                                    </button>
-
-                                    <a href="https://sei-26-sing-k.vercel.app/" target="_blank" class="link">
-                                        <button class="proj-link">View
-                                            <img class="proj-link" src="./images/openinnew.png" alt="launch app">
-                                        </button>
+                                    <!-- singK Carousel Controller -->
+                                    <a class="carousel-control-prev" href="#singK-carouselIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#singK-carouselIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
                                     </a>
                                 </div>
 
-                                <!-- singK Modal -->
-                                <div class="modal fade" id="singKModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">singK
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
+                                <!-- singK CARD BODY -->
+                                <div class="card-body" id="singK-cardbody">
+                                    <h5 class="card-title">singK</h5>
+                                    <p class="card-text">A single page application (SPA) made with React and API. Sing
+                                        to a
+                                        Youtube video of your choice with full lyrics in the same viewport.
+                                        <br />
+                                        <br /> Tech Stack: React, Axios, API | HTML, CSS, Javascript
+                                    </p>
+                                    <div class="project-link d-flex align-items-center justify-content-start">
+                                        <button class="proj-link" data-toggle="modal" data-target="#singKModal">More
+                                            <span id="eyes-more">&#x1F440</span>
+                                        </button>
 
-                                                <img class="d-block w-100"
-                                                    src="./images/proj-screenshot/singK-watch-search.PNG"
-                                                    alt="Sing and Search">
-                                                <p class="modal-p">My first front-end React app. (solo project)
-                                                    <br />Users can sing
-                                                    to a
-                                                    Youtube
-                                                    video of
-                                                    their
-                                                    choice with lyrics in the same viewport. Especially useful when
-                                                    singing to fast-paced
-                                                    songs,
-                                                    raps or
-                                                    Chinese
-                                                    songs.
-                                                </p>
-                                                <p class="modal-techstack">
-                                                    Tech Stack: React, Axios, API: Youtube,
-                                                    RapidAPI (Shazam) | HTML, CSS, Javascript
-                                                </p>
+                                        <a href="https://sei-26-sing-k.vercel.app/" target="_blank" class="link">
+                                            <button class="proj-link">View
+                                                <img class="proj-link" src="./images/openinnew.png" alt="launch app">
+                                            </button>
+                                        </a>
+                                    </div>
 
-                                            </div>
+                                    <!-- singK Modal -->
+                                    <div class="modal fade" id="singKModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">singK
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
 
-                                            <div class="modal-footer">
-                                                <div class="project-link">
-                                                    <a href="https://github.com/gloairc/sei-26-singK" target="_blank"
-                                                        class="link">
-                                                        <button class="proj-link">See code
-                                                            <img class="proj-link" src="./images/github.png"
-                                                                alt="go to repo">
-                                                        </button>
-                                                    </a>
-                                                    <a href="https://sei-26-sing-k.vercel.app/" target="_blank"
-                                                        class="link">
-                                                        <button class="proj-link">View
-                                                            <img class="proj-link" src="./images/openinnew.png"
-                                                                alt="launch app">
-                                                        </button>
-                                                    </a>
+                                                    <img class="d-block w-100"
+                                                        src="./images/proj-screenshot/singK-watch-search.PNG"
+                                                        alt="Sing and Search">
+                                                    <p class="modal-p">My first front-end React app. (solo project)
+                                                        <br />Users can sing
+                                                        to a
+                                                        Youtube
+                                                        video of
+                                                        their
+                                                        choice with lyrics in the same viewport. Especially useful when
+                                                        singing to fast-paced
+                                                        songs,
+                                                        raps or
+                                                        Chinese
+                                                        songs.
+                                                    </p>
+                                                    <p class="modal-techstack">
+                                                        Tech Stack: React, Axios, API: Youtube,
+                                                        RapidAPI (Shazam) | HTML, CSS, Javascript
+                                                    </p>
+
+                                                </div>
+
+                                                <div class="modal-footer">
+                                                    <div class="project-link">
+                                                        <a href="https://github.com/gloairc/sei-26-singK"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">See code
+                                                                <img class="proj-link" src="./images/github.png"
+                                                                    alt="go to repo">
+                                                            </button>
+                                                        </a>
+                                                        <a href="https://sei-26-sing-k.vercel.app/" target="_blank"
+                                                            class="link">
+                                                            <button class="proj-link">View
+                                                                <img class="proj-link" src="./images/openinnew.png"
+                                                                    alt="launch app">
+                                                            </button>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -327,284 +335,288 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- PROJECT ROW 2 -->
-                <div class="row" id="proj-row-2">
-                    <div class="card-deck">
-                        <!-- LOVELY LEFTOVERS -->
-                        <div class="card mb-2" id="lovely-leftover-card">
-                            <!-- <img class="card-img-top" src="./images/proj-screenshot/ll-home.PNG"
+                    <!-- PROJECT ROW 2 -->
+                    <div class="row" id="proj-row-2">
+                        <div class="card-deck">
+                            <!-- LOVELY LEFTOVERS -->
+                            <div class="card mb-2" id="lovely-leftover-card">
+                                <!-- <img class="card-img-top" src="./images/proj-screenshot/ll-home.PNG"
                                 alt="Lovely Leftovers screenshot"> -->
 
-                            <!-- Lovely Leftovers CAROUSEL -->
-                            <div id="ll-carouselIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#ll-carouselIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#ll-carouselIndicators" data-slide-to="1"></li>
-                                    <li data-target="#ll-carouselIndicators" data-slide-to="2"></li>
-                                    <li data-target="#ll-carouselIndicators" data-slide-to="3"></li>
-                                    <li data-target="#ll-carouselIndicators" data-slide-to="4"></li>
-                                </ol>
-                                <!-- Lovely Leftovers CAROUSEL PICTURES -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ll-home.PNG"
-                                            alt="Home">
+                                <!-- Lovely Leftovers CAROUSEL -->
+                                <div id="ll-carouselIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#ll-carouselIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#ll-carouselIndicators" data-slide-to="1"></li>
+                                        <li data-target="#ll-carouselIndicators" data-slide-to="2"></li>
+                                        <li data-target="#ll-carouselIndicators" data-slide-to="3"></li>
+                                        <li data-target="#ll-carouselIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <!-- Lovely Leftovers CAROUSEL PICTURES -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ll-home.PNG"
+                                                alt="Home">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ll-signup.PNG"
+                                                alt="Sign Up">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ll-listings.PNG"
+                                                alt="Listings">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/ll-contribute1.PNG"
+                                                alt="Contribute">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100"
+                                                src="./images/proj-screenshot/ll-indivlisting.PNG" alt="Receive">
+                                        </div>
                                     </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ll-signup.PNG"
-                                            alt="Sign Up">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ll-listings.PNG"
-                                            alt="Listings">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ll-contribute1.PNG"
-                                            alt="Contribute">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/ll-indivlisting.PNG"
-                                            alt="Receive">
-                                    </div>
-                                </div>
-                                <!-- Lovely Leftovers Carousel Controller -->
-                                <a class="carousel-control-prev" href="#ll-carouselIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#ll-carouselIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- Lovely Leftover Body -->
-                            <div class="card-body">
-                                <h5 class="card-title">Lovely Leftovers</h5>
-                                <p class="card-text">MERN app - A platform for people to contribute excess
-                                    food and for charity organizations to
-                                    acquire food for their beneficiaries.
-                                    <br />
-                                    <br />
-                                    Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, Bootstrap,
-                                    react-bootstrap
-                                </p>
-                                <div class="project-link d-flex align-items-center justify-content-start">
-                                    <button class="proj-link" data-toggle="modal"
-                                        data-target="#lovelyleftoversModal">More
-                                        <span id="eyes-more">&#x1F440</span>
-                                    </button>
-
-                                    <a href="https://lovelyleftovers-project3.herokuapp.com/about" target="_blank"
-                                        class="link">
-                                        <button class="proj-link">View
-                                            <img class="proj-link" src="./images/openinnew.png" alt="launch app">
-                                        </button>
+                                    <!-- Lovely Leftovers Carousel Controller -->
+                                    <a class="carousel-control-prev" href="#ll-carouselIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#ll-carouselIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
                                     </a>
                                 </div>
+                                <!-- Lovely Leftover Body -->
+                                <div class="card-body">
+                                    <h5 class="card-title">Lovely Leftovers</h5>
+                                    <p class="card-text">MERN app - A platform for people to contribute excess
+                                        food and for charity organizations to
+                                        acquire food for their beneficiaries.
+                                        <br />
+                                        <br />
+                                        Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, Bootstrap,
+                                        react-bootstrap
+                                    </p>
+                                    <div class="project-link d-flex align-items-center justify-content-start">
+                                        <button class="proj-link" data-toggle="modal"
+                                            data-target="#lovelyleftoversModal">More
+                                            <span id="eyes-more">&#x1F440</span>
+                                        </button>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="lovelyleftoversModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Lovely
-                                                    Leftovers
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img class="d-block w-100"
-                                                    src="./images/proj-screenshot/ll-listings.PNG" alt="Listings">
-                                                <p class="modal-p"> My first full-stack app! (group project)
-                                                    <br /> To reduce food waste, my group created a platform
-                                                    for
-                                                    people to
-                                                    contribute excess food and for charity organizations to acquire
-                                                    food
-                                                    resources
-                                                    for
-                                                    their beneficiaries. I was mainly involved in setting up the
-                                                    MongoDB
-                                                    backend,
-                                                    REST
-                                                    API, validation, authorization of users.
-                                                </p>
-                                                <p class="modal-techstack">
-                                                    Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios,
-                                                    Bootstrap,
-                                                    react-bootstrap
-                                                </p>
+                                        <a href="https://lovelyleftovers-project3.herokuapp.com/about" target="_blank"
+                                            class="link">
+                                            <button class="proj-link">View
+                                                <img class="proj-link" src="./images/openinnew.png" alt="launch app">
+                                            </button>
+                                        </a>
+                                    </div>
 
-                                            </div>
-                                            <div class="modal-footer">
-                                                <div class="project-link">
-                                                    <a href="https://github.com/gloairc/sei-26-Lovely-Leftovers"
-                                                        target="_blank" class="link">
-                                                        <button class="proj-link">See code
-                                                            <img class="proj-link" src="./images/github.png"
-                                                                alt="go to repo">
-                                                        </button>
-                                                    </a>
-                                                    <a href="https://lovelyleftovers-project3.herokuapp.com/about"
-                                                        target="_blank" class="link">
-                                                        <button class="proj-link">View
-                                                            <img class="proj-link" src="./images/openinnew.png"
-                                                                alt="launch app">
-                                                        </button>
-                                                    </a>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="lovelyleftoversModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">Lovely
+                                                        Leftovers
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img class="d-block w-100"
+                                                        src="./images/proj-screenshot/ll-listings.PNG" alt="Listings">
+                                                    <p class="modal-p"> My first full-stack app! (group project)
+                                                        <br /> To reduce food waste, my group created a platform
+                                                        for
+                                                        people to
+                                                        contribute excess food and for charity organizations to acquire
+                                                        food
+                                                        resources
+                                                        for
+                                                        their beneficiaries. I was mainly involved in setting up the
+                                                        MongoDB
+                                                        backend,
+                                                        REST
+                                                        API, validation, authorization of users.
+                                                    </p>
+                                                    <p class="modal-techstack">
+                                                        Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios,
+                                                        Bootstrap,
+                                                        react-bootstrap
+                                                    </p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="project-link">
+                                                        <a href="https://github.com/gloairc/sei-26-Lovely-Leftovers"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">See code
+                                                                <img class="proj-link" src="./images/github.png"
+                                                                    alt="go to repo">
+                                                            </button>
+                                                        </a>
+                                                        <a href="https://lovelyleftovers-project3.herokuapp.com/about"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">View
+                                                                <img class="proj-link" src="./images/openinnew.png"
+                                                                    alt="launch app">
+                                                            </button>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
-                        <div class="card mb-2" id="beatIT-card">
-                            <!-- <img class="card-img-top" src="./images/proj-screenshot/bi-home.PNG"
+                            <div class="card mb-2" id="beatIT-card">
+                                <!-- <img class="card-img-top" src="./images/proj-screenshot/bi-home.PNG"
                                 alt="BeatIT! screenshot"> -->
 
-                            <!-- BeatIT CAROUSEL -->
-                            <div id="bi-carouselIndicators" class="carousel slide" data-ride="carousel">
-                                <ol class="carousel-indicators">
-                                    <li data-target="#bi-carouselIndicators" data-slide-to="0" class="active"></li>
-                                    <li data-target="#bi-carouselIndicators" data-slide-to="1"></li>
-                                    <li data-target="#bi-carouselIndicators" data-slide-to="2"></li>
-                                    <li data-target="#bi-carouselIndicators" data-slide-to="3"></li>
-                                    <li data-target="#bi-carouselIndicators" data-slide-to="4"></li>
-                                </ol>
-                                <!-- BeatIT CAROUSEL PICTURES -->
-                                <div class="carousel-inner">
-                                    <div class="carousel-item active">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/bi-home.PNG"
-                                            alt="Home">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/bi-teaser.PNG"
-                                            alt="Teaser">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/bi-login.PNG"
-                                            alt="Log in">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/bi-landing.PNG"
-                                            alt="Landing Page">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="./images/proj-screenshot/bi-info.PNG"
-                                            alt="Info Page">
-                                    </div>
+                                <!-- BeatIT CAROUSEL -->
+                                <div id="bi-carouselIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#bi-carouselIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#bi-carouselIndicators" data-slide-to="1"></li>
+                                        <li data-target="#bi-carouselIndicators" data-slide-to="2"></li>
+                                        <li data-target="#bi-carouselIndicators" data-slide-to="3"></li>
+                                        <li data-target="#bi-carouselIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <!-- BeatIT CAROUSEL PICTURES -->
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/bi-home.PNG"
+                                                alt="Home">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/bi-teaser.PNG"
+                                                alt="Teaser">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/bi-login.PNG"
+                                                alt="Log in">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/bi-landing.PNG"
+                                                alt="Landing Page">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="./images/proj-screenshot/bi-info.PNG"
+                                                alt="Info Page">
+                                        </div>
 
-                                </div>
-                                <!-- BeatIT Carousel Controller -->
-                                <a class="carousel-control-prev" href="#bi-carouselIndicators" role="button"
-                                    data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#bi-carouselIndicators" role="button"
-                                    data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
-                            </div>
-                            <!-- BeatIT Card -->
-                            <div class="card-body">
-                                <h5 class="card-title">BeatIT!</h5>
-                                <p class="card-text">MERN app - Play, Save & Edit beat
-                                    sequences on a virtual step-sequencer.
-                                    <br />
-                                    <br />
-                                    Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, JWT, Bootstrap
-                                </p>
-
-                                <div class="project-link d-flex align-items-center justify-content-start">
-                                    <button class="proj-link" data-toggle="modal" data-target="#beatitModal">More <span
-                                            id="eyes-more">&#x1F440</span>
-                                    </button>
-
-                                    <a href="https://sei26-project4.herokuapp.com/" target="_blank" class="link">
-                                        <button class="proj-link">View
-                                            <img class="proj-link" src="./images/openinnew.png" alt="launch app">
-                                        </button>
+                                    </div>
+                                    <!-- BeatIT Carousel Controller -->
+                                    <a class="carousel-control-prev" href="#bi-carouselIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#bi-carouselIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
                                     </a>
                                 </div>
+                                <!-- BeatIT Card -->
+                                <div class="card-body">
+                                    <h5 class="card-title">BeatIT!</h5>
+                                    <p class="card-text">MERN app - Play, Save & Edit beat
+                                        sequences on a virtual step-sequencer.
+                                        <br />
+                                        <br />
+                                        Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, JWT, Bootstrap
+                                    </p>
 
-                                <!-- Modal -->
-                                <div class="modal fade" id="beatitModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">BeatIT!
-                                                </h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <img class="d-block w-100" src="./images/proj-screenshot/bi-landing.PNG"
-                                                    alt="Landing Page">
-                                                <p class="modal-p">My second full-stack app! (pair project)
-                                                    <br />
-                                                    Leveraging on a <a
-                                                        href="https://github.com/kenwheeler/hooks-drum-machine"
-                                                        class="link" target="_blank">public GitHub repository</a>, my
-                                                    partner and
-                                                    I augmented
-                                                    it by adding a user account feature, a MongoDB backend to store user
-                                                    info and beat sequences, pages such as an info and teaser page
-                                                    and functions such as clear grid, clear row & playlist to enhance
-                                                    the overall
-                                                    user experience.
+                                    <div class="project-link d-flex align-items-center justify-content-start">
+                                        <button class="proj-link" data-toggle="modal" data-target="#beatitModal">More
+                                            <span id="eyes-more">&#x1F440</span>
+                                        </button>
 
-                                                    I was mainly involved in the front-end - page styling &
-                                                    functionalities, authorization and authentication.
-                                                </p>
-                                                <p class="modal-techstack">
-                                                    Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios, JWT,
-                                                    Bootstrap
-                                                </p>
+                                        <a href="https://sei26-project4.herokuapp.com/" target="_blank" class="link">
+                                            <button class="proj-link">View
+                                                <img class="proj-link" src="./images/openinnew.png" alt="launch app">
+                                            </button>
+                                        </a>
+                                    </div>
 
-                                            </div>
-                                            <div class="modal-footer">
-                                                <div class="project-link">
-                                                    <a href="https://github.com/gloairc/sei-26-beatIT" target="_blank"
-                                                        class="link">
-                                                        <button class="proj-link">See code
-                                                            <img class="proj-link" src="./images/github.png"
-                                                                alt="go to repo">
-                                                        </button>
-                                                    </a>
-                                                    <a href="https://sei26-project4.herokuapp.com/" target="_blank"
-                                                        class="link">
-                                                        <button class="proj-link">Launch App
-                                                            <img class="proj-link" src="./images/openinnew.png"
-                                                                alt="launch app">
-                                                        </button>
-                                                    </a>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="beatitModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLongTitle">BeatIT!
+                                                    </h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <img class="d-block w-100"
+                                                        src="./images/proj-screenshot/bi-landing.PNG"
+                                                        alt="Landing Page">
+                                                    <p class="modal-p">My second full-stack app! (pair project)
+                                                        <br />
+                                                        Leveraging on a <a
+                                                            href="https://github.com/kenwheeler/hooks-drum-machine"
+                                                            class="link" target="_blank">public GitHub repository</a>,
+                                                        my
+                                                        partner and
+                                                        I augmented
+                                                        it by adding a user account feature, a MongoDB backend to store
+                                                        user
+                                                        info and beat sequences, pages such as an info and teaser page
+                                                        and functions such as clear grid, clear row & playlist to
+                                                        enhance
+                                                        the overall
+                                                        user experience.
+
+                                                        I was mainly involved in the front-end - page styling &
+                                                        functionalities, authorization and authentication.
+                                                    </p>
+                                                    <p class="modal-techstack">
+                                                        Tech Stack: (MERN) MongoDB, Express, React, Node.js | Axios,
+                                                        JWT,
+                                                        Bootstrap
+                                                    </p>
+
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <div class="project-link">
+                                                        <a href="https://github.com/gloairc/sei-26-beatIT"
+                                                            target="_blank" class="link">
+                                                            <button class="proj-link">See code
+                                                                <img class="proj-link" src="./images/github.png"
+                                                                    alt="go to repo">
+                                                            </button>
+                                                        </a>
+                                                        <a href="https://sei26-project4.herokuapp.com/" target="_blank"
+                                                            class="link">
+                                                            <button class="proj-link">Launch App
+                                                                <img class="proj-link" src="./images/openinnew.png"
+                                                                    alt="launch app">
+                                                            </button>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
